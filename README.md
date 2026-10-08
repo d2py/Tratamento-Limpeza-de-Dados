@@ -27,6 +27,7 @@ Limpesa e tratamento de dados, baixado do Kagge Vendas em Cafés -(Cafe Sales - 
 
 ## Limpeza do dataset
 ### O que foi feito 
+- No final o dataset ficou com 12 colunas e 8613 linhas  
 - 1- Foi feito a junção dos nomes das colunas devido esta separados (ex: Total Spent, ficou Total_Spend)
 - 2- Verificado os tipos, todos estavam como "object", Mudado os tipos das colunas
   - Item par categoria
@@ -50,5 +51,5 @@ Limpesa e tratamento de dados, baixado do Kagge Vendas em Cafés -(Cafe Sales - 
 - 10- Na coluna Price_Per_Unit foi preenchido com mediana devido ser mais seguro
 - 11- E foi recalculado os valores da coluna Total_Spent
 - 12- Na ultima etapa foi removido as linhas com valores NaN de 10000 linhas ficou 8613,  com esta perda não representa muito perda nas analises.
-
+  
 
